@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         body {
             background: linear-gradient(120deg, var(--bg1), var(--bg2));
             min-height: 100vh;
-            color: var(--text); /* Adicionado para texto adaptar ao tema */
+            color: var(--text);
         }
 
         nav {
@@ -130,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         .container {
-            background: transparent; /* Deixei transparente para os cards aparecerem melhor */
+            background: transparent;
             justify-content: space-between;
             padding: 0 30px;
             width: 100%;
@@ -215,7 +215,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             box-shadow: 0 4px 10px var(--shadow);
         }
 
-        /* Responsividade */
         @media (max-width: 500px) {
             .botoes {
                 flex-direction: column;
